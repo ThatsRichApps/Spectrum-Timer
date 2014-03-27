@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  Spectrum Timer
 //
-//  Created by Rich Humphrey on 3/27/14.
+//  Created by Rich Humphrey on 3/21/14.
 //  Copyright (c) 2014 Rich Humphrey. All rights reserved.
 //
 

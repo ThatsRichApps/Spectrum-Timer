@@ -13,18 +13,25 @@
 		81D4077118E465E10039192A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D4077018E465E10039192A /* SpriteKit.framework */; };
 		81D4077718E465E10039192A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81D4077518E465E10039192A /* InfoPlist.strings */; };
 		81D4077918E465E10039192A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D4077818E465E10039192A /* main.m */; };
-		81D4077D18E465E10039192A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D4077C18E465E10039192A /* AppDelegate.m */; };
-		81D4078018E465E10039192A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D4077E18E465E10039192A /* Main_iPhone.storyboard */; };
-		81D4078318E465E10039192A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D4078118E465E10039192A /* Main_iPad.storyboard */; };
-		81D4078618E465E10039192A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D4078518E465E10039192A /* ViewController.m */; };
-		81D4078918E465E10039192A /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D4078818E465E10039192A /* MyScene.m */; };
-		81D4078B18E465E10039192A /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4078A18E465E10039192A /* Spaceship.png */; };
-		81D4078D18E465E10039192A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D4078C18E465E10039192A /* Images.xcassets */; };
 		81D4079418E465E10039192A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D4079318E465E10039192A /* XCTest.framework */; };
 		81D4079518E465E10039192A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D4076A18E465E10039192A /* Foundation.framework */; };
 		81D4079618E465E10039192A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D4076E18E465E10039192A /* UIKit.framework */; };
 		81D4079E18E465E10039192A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81D4079C18E465E10039192A /* InfoPlist.strings */; };
 		81D407A018E465E10039192A /* Spectrum_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D4079F18E465E10039192A /* Spectrum_TimerTests.m */; };
+		81D407B718E4660D0039192A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D407A918E4660D0039192A /* Images.xcassets */; };
+		81D407B818E4660D0039192A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D407AB18E4660D0039192A /* AppDelegate.m */; };
+		81D407B918E4660D0039192A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D407AC18E4660D0039192A /* Main_iPhone.storyboard */; };
+		81D407BA18E4660D0039192A /* CountdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D407AE18E4660D0039192A /* CountdownViewController.m */; };
+		81D407BB18E4660D0039192A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D407AF18E4660D0039192A /* Main_iPad.storyboard */; };
+		81D407BC18E4660D0039192A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D407B118E4660D0039192A /* ViewController.m */; };
+		81D407BD18E4660D0039192A /* MainTimerScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D407B318E4660D0039192A /* MainTimerScene.m */; };
+		81D407BE18E4660D0039192A /* Model.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 81D407B418E4660D0039192A /* Model.xcdatamodel */; };
+		81D407BF18E4660D0039192A /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D407B618E4660D0039192A /* NavigationController.m */; };
+		81D4085718E466480039192A /* arrow8.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4080A18E466480039192A /* arrow8.png */; };
+		81D4085818E466480039192A /* pause6.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4080B18E466480039192A /* pause6.png */; };
+		81D4085918E466480039192A /* play2.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4080C18E466480039192A /* play2.png */; };
+		81D4085A18E466480039192A /* rewind6.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4080D18E466480039192A /* rewind6.png */; };
+		81D4085B18E466480039192A /* spectrum circle 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4080E18E466480039192A /* spectrum circle 7.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,21 +54,30 @@
 		81D4077618E465E10039192A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81D4077818E465E10039192A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81D4077A18E465E10039192A /* Spectrum Timer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spectrum Timer-Prefix.pch"; sourceTree = "<group>"; };
-		81D4077B18E465E10039192A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		81D4077C18E465E10039192A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		81D4077F18E465E10039192A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		81D4078218E465E10039192A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		81D4078418E465E10039192A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		81D4078518E465E10039192A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		81D4078718E465E10039192A /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
-		81D4078818E465E10039192A /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		81D4078A18E465E10039192A /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
-		81D4078C18E465E10039192A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		81D4079218E465E10039192A /* Spectrum TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spectrum TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D4079318E465E10039192A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		81D4079B18E465E10039192A /* Spectrum TimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spectrum TimerTests-Info.plist"; sourceTree = "<group>"; };
 		81D4079D18E465E10039192A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81D4079F18E465E10039192A /* Spectrum_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Spectrum_TimerTests.m; sourceTree = "<group>"; };
+		81D407A918E4660D0039192A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		81D407AA18E4660D0039192A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81D407AB18E4660D0039192A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81D407AC18E4660D0039192A /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		81D407AD18E4660D0039192A /* CountdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownViewController.h; sourceTree = "<group>"; };
+		81D407AE18E4660D0039192A /* CountdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownViewController.m; sourceTree = "<group>"; };
+		81D407AF18E4660D0039192A /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		81D407B018E4660D0039192A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81D407B118E4660D0039192A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81D407B218E4660D0039192A /* MainTimerScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTimerScene.h; sourceTree = "<group>"; };
+		81D407B318E4660D0039192A /* MainTimerScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTimerScene.m; sourceTree = "<group>"; };
+		81D407B418E4660D0039192A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		81D407B518E4660D0039192A /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		81D407B618E4660D0039192A /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		81D4080A18E466480039192A /* arrow8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow8.png; sourceTree = "<group>"; };
+		81D4080B18E466480039192A /* pause6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause6.png; sourceTree = "<group>"; };
+		81D4080C18E466480039192A /* play2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play2.png; sourceTree = "<group>"; };
+		81D4080D18E466480039192A /* rewind6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rewind6.png; sourceTree = "<group>"; };
+		81D4080E18E466480039192A /* spectrum circle 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spectrum circle 7.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,16 +139,21 @@
 		81D4077218E465E10039192A /* Spectrum Timer */ = {
 			isa = PBXGroup;
 			children = (
-				81D4077B18E465E10039192A /* AppDelegate.h */,
-				81D4077C18E465E10039192A /* AppDelegate.m */,
-				81D4077E18E465E10039192A /* Main_iPhone.storyboard */,
-				81D4078118E465E10039192A /* Main_iPad.storyboard */,
-				81D4078418E465E10039192A /* ViewController.h */,
-				81D4078518E465E10039192A /* ViewController.m */,
-				81D4078718E465E10039192A /* MyScene.h */,
-				81D4078818E465E10039192A /* MyScene.m */,
-				81D4078A18E465E10039192A /* Spaceship.png */,
-				81D4078C18E465E10039192A /* Images.xcassets */,
+				81D407C018E466180039192A /* Artwork */,
+				81D407A918E4660D0039192A /* Images.xcassets */,
+				81D407AA18E4660D0039192A /* AppDelegate.h */,
+				81D407AB18E4660D0039192A /* AppDelegate.m */,
+				81D407AC18E4660D0039192A /* Main_iPhone.storyboard */,
+				81D407AD18E4660D0039192A /* CountdownViewController.h */,
+				81D407AE18E4660D0039192A /* CountdownViewController.m */,
+				81D407AF18E4660D0039192A /* Main_iPad.storyboard */,
+				81D407B018E4660D0039192A /* ViewController.h */,
+				81D407B118E4660D0039192A /* ViewController.m */,
+				81D407B218E4660D0039192A /* MainTimerScene.h */,
+				81D407B318E4660D0039192A /* MainTimerScene.m */,
+				81D407B418E4660D0039192A /* Model.xcdatamodel */,
+				81D407B518E4660D0039192A /* NavigationController.h */,
+				81D407B618E4660D0039192A /* NavigationController.m */,
 				81D4077318E465E10039192A /* Supporting Files */,
 			);
 			path = "Spectrum Timer";
@@ -165,6 +186,18 @@
 				81D4079C18E465E10039192A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81D407C018E466180039192A /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				81D4080A18E466480039192A /* arrow8.png */,
+				81D4080B18E466480039192A /* pause6.png */,
+				81D4080C18E466480039192A /* play2.png */,
+				81D4080D18E466480039192A /* rewind6.png */,
+				81D4080E18E466480039192A /* spectrum circle 7.png */,
+			);
+			name = Artwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,11 +276,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81D4078B18E465E10039192A /* Spaceship.png in Resources */,
-				81D4078D18E465E10039192A /* Images.xcassets in Resources */,
-				81D4078318E465E10039192A /* Main_iPad.storyboard in Resources */,
-				81D4078018E465E10039192A /* Main_iPhone.storyboard in Resources */,
 				81D4077718E465E10039192A /* InfoPlist.strings in Resources */,
+				81D407BB18E4660D0039192A /* Main_iPad.storyboard in Resources */,
+				81D4085918E466480039192A /* play2.png in Resources */,
+				81D4085B18E466480039192A /* spectrum circle 7.png in Resources */,
+				81D4085718E466480039192A /* arrow8.png in Resources */,
+				81D4085818E466480039192A /* pause6.png in Resources */,
+				81D407B718E4660D0039192A /* Images.xcassets in Resources */,
+				81D407B918E4660D0039192A /* Main_iPhone.storyboard in Resources */,
+				81D4085A18E466480039192A /* rewind6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81D4078918E465E10039192A /* MyScene.m in Sources */,
-				81D4078618E465E10039192A /* ViewController.m in Sources */,
-				81D4077D18E465E10039192A /* AppDelegate.m in Sources */,
+				81D407BE18E4660D0039192A /* Model.xcdatamodel in Sources */,
+				81D407B818E4660D0039192A /* AppDelegate.m in Sources */,
+				81D407BD18E4660D0039192A /* MainTimerScene.m in Sources */,
+				81D407BA18E4660D0039192A /* CountdownViewController.m in Sources */,
+				81D407BC18E4660D0039192A /* ViewController.m in Sources */,
 				81D4077918E465E10039192A /* main.m in Sources */,
+				81D407BF18E4660D0039192A /* NavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,22 +338,6 @@
 				81D4077618E465E10039192A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		81D4077E18E465E10039192A /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				81D4077F18E465E10039192A /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		81D4078118E465E10039192A /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				81D4078218E465E10039192A /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		81D4079C18E465E10039192A /* InfoPlist.strings */ = {
@@ -407,6 +431,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Spectrum Timer/Spectrum Timer-Prefix.pch";
 				INFOPLIST_FILE = "Spectrum Timer/Spectrum Timer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -421,6 +446,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Spectrum Timer/Spectrum Timer-Prefix.pch";
 				INFOPLIST_FILE = "Spectrum Timer/Spectrum Timer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;

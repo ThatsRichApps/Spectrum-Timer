@@ -7,8 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <SpriteKit/SpriteKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    
+    IBOutlet UITextField *timerField;
+    IBOutlet UIBarButtonItem *resumeButton;
+
+}
+
+@property (weak, nonatomic) IBOutlet UIDatePicker *countdownTimePicker;
+@property (nonatomic, assign) NSTimeInterval previousTimerLeft;
+
+- (IBAction)setCountdown:(id)sender;
 
 @end

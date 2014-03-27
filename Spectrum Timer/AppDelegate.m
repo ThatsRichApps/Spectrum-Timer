@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  Spectrum Timer
 //
-//  Created by Rich Humphrey on 3/27/14.
+//  Created by Rich Humphrey on 3/21/14.
 //  Copyright (c) 2014 Rich Humphrey. All rights reserved.
 //
 
@@ -13,6 +13,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    // override the idle timer that puts the device to sleep
+    // add this as a settings option later
+    UIApplication *thisApp = [UIApplication sharedApplication];
+	thisApp.idleTimerDisabled = YES;
+    
     return YES;
 }
 							
