@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81D4076B18E465E10039192A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D4076A18E465E10039192A /* Foundation.framework */; };
+		81D4076D18E465E10039192A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D4076C18E465E10039192A /* CoreGraphics.framework */; };
+		81D4076F18E465E10039192A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D4076E18E465E10039192A /* UIKit.framework */; };
+		81D4077118E465E10039192A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D4077018E465E10039192A /* SpriteKit.framework */; };
+		81D4077718E465E10039192A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81D4077518E465E10039192A /* InfoPlist.strings */; };
+		81D4077918E465E10039192A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D4077818E465E10039192A /* main.m */; };
+		81D4077D18E465E10039192A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D4077C18E465E10039192A /* AppDelegate.m */; };
+		81D4078018E465E10039192A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D4077E18E465E10039192A /* Main_iPhone.storyboard */; };
+		81D4078318E465E10039192A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D4078118E465E10039192A /* Main_iPad.storyboard */; };
+		81D4078618E465E10039192A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D4078518E465E10039192A /* ViewController.m */; };
+		81D4078918E465E10039192A /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D4078818E465E10039192A /* MyScene.m */; };
+		81D4078B18E465E10039192A /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4078A18E465E10039192A /* Spaceship.png */; };
+		81D4078D18E465E10039192A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D4078C18E465E10039192A /* Images.xcassets */; };
+		81D4079418E465E10039192A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D4079318E465E10039192A /* XCTest.framework */; };
+		81D4079518E465E10039192A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D4076A18E465E10039192A /* Foundation.framework */; };
+		81D4079618E465E10039192A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D4076E18E465E10039192A /* UIKit.framework */; };
+		81D4079E18E465E10039192A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81D4079C18E465E10039192A /* InfoPlist.strings */; };
+		81D407A018E465E10039192A /* Spectrum_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D4079F18E465E10039192A /* Spectrum_TimerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81D4079718E465E10039192A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81D4075F18E465E10039192A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81D4076618E465E10039192A;
+			remoteInfo = "Spectrum Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81D4076718E465E10039192A /* Spectrum Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spectrum Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D4076A18E465E10039192A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81D4076C18E465E10039192A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81D4076E18E465E10039192A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81D4077018E465E10039192A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		81D4077418E465E10039192A /* Spectrum Timer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spectrum Timer-Info.plist"; sourceTree = "<group>"; };
+		81D4077618E465E10039192A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81D4077818E465E10039192A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81D4077A18E465E10039192A /* Spectrum Timer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spectrum Timer-Prefix.pch"; sourceTree = "<group>"; };
+		81D4077B18E465E10039192A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81D4077C18E465E10039192A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81D4077F18E465E10039192A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		81D4078218E465E10039192A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		81D4078418E465E10039192A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81D4078518E465E10039192A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81D4078718E465E10039192A /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		81D4078818E465E10039192A /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		81D4078A18E465E10039192A /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		81D4078C18E465E10039192A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		81D4079218E465E10039192A /* Spectrum TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spectrum TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D4079318E465E10039192A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		81D4079B18E465E10039192A /* Spectrum TimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spectrum TimerTests-Info.plist"; sourceTree = "<group>"; };
+		81D4079D18E465E10039192A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81D4079F18E465E10039192A /* Spectrum_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Spectrum_TimerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81D4076418E465E10039192A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D4076D18E465E10039192A /* CoreGraphics.framework in Frameworks */,
+				81D4076F18E465E10039192A /* UIKit.framework in Frameworks */,
+				81D4077118E465E10039192A /* SpriteKit.framework in Frameworks */,
+				81D4076B18E465E10039192A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D4078F18E465E10039192A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D4079418E465E10039192A /* XCTest.framework in Frameworks */,
+				81D4079618E465E10039192A /* UIKit.framework in Frameworks */,
+				81D4079518E465E10039192A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81D4075E18E465E10039192A = {
+			isa = PBXGroup;
+			children = (
+				81D4077218E465E10039192A /* Spectrum Timer */,
+				81D4079918E465E10039192A /* Spectrum TimerTests */,
+				81D4076918E465E10039192A /* Frameworks */,
+				81D4076818E465E10039192A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81D4076818E465E10039192A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81D4076718E465E10039192A /* Spectrum Timer.app */,
+				81D4079218E465E10039192A /* Spectrum TimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81D4076918E465E10039192A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81D4076A18E465E10039192A /* Foundation.framework */,
+				81D4076C18E465E10039192A /* CoreGraphics.framework */,
+				81D4076E18E465E10039192A /* UIKit.framework */,
+				81D4077018E465E10039192A /* SpriteKit.framework */,
+				81D4079318E465E10039192A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81D4077218E465E10039192A /* Spectrum Timer */ = {
+			isa = PBXGroup;
+			children = (
+				81D4077B18E465E10039192A /* AppDelegate.h */,
+				81D4077C18E465E10039192A /* AppDelegate.m */,
+				81D4077E18E465E10039192A /* Main_iPhone.storyboard */,
+				81D4078118E465E10039192A /* Main_iPad.storyboard */,
+				81D4078418E465E10039192A /* ViewController.h */,
+				81D4078518E465E10039192A /* ViewController.m */,
+				81D4078718E465E10039192A /* MyScene.h */,
+				81D4078818E465E10039192A /* MyScene.m */,
+				81D4078A18E465E10039192A /* Spaceship.png */,
+				81D4078C18E465E10039192A /* Images.xcassets */,
+				81D4077318E465E10039192A /* Supporting Files */,
+			);
+			path = "Spectrum Timer";
+			sourceTree = "<group>";
+		};
+		81D4077318E465E10039192A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81D4077418E465E10039192A /* Spectrum Timer-Info.plist */,
+				81D4077518E465E10039192A /* InfoPlist.strings */,
+				81D4077818E465E10039192A /* main.m */,
+				81D4077A18E465E10039192A /* Spectrum Timer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81D4079918E465E10039192A /* Spectrum TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				81D4079F18E465E10039192A /* Spectrum_TimerTests.m */,
+				81D4079A18E465E10039192A /* Supporting Files */,
+			);
+			path = "Spectrum TimerTests";
+			sourceTree = "<group>";
+		};
+		81D4079A18E465E10039192A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81D4079B18E465E10039192A /* Spectrum TimerTests-Info.plist */,
+				81D4079C18E465E10039192A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81D4076618E465E10039192A /* Spectrum Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D407A318E465E10039192A /* Build configuration list for PBXNativeTarget "Spectrum Timer" */;
+			buildPhases = (
+				81D4076318E465E10039192A /* Sources */,
+				81D4076418E465E10039192A /* Frameworks */,
+				81D4076518E465E10039192A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spectrum Timer";
+			productName = "Spectrum Timer";
+			productReference = 81D4076718E465E10039192A /* Spectrum Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81D4079118E465E10039192A /* Spectrum TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D407A618E465E10039192A /* Build configuration list for PBXNativeTarget "Spectrum TimerTests" */;
+			buildPhases = (
+				81D4078E18E465E10039192A /* Sources */,
+				81D4078F18E465E10039192A /* Frameworks */,
+				81D4079018E465E10039192A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81D4079818E465E10039192A /* PBXTargetDependency */,
+			);
+			name = "Spectrum TimerTests";
+			productName = "Spectrum TimerTests";
+			productReference = 81D4079218E465E10039192A /* Spectrum TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81D4075F18E465E10039192A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rich Humphrey";
+				TargetAttributes = {
+					81D4079118E465E10039192A = {
+						TestTargetID = 81D4076618E465E10039192A;
+					};
+				};
+			};
+			buildConfigurationList = 81D4076218E465E10039192A /* Build configuration list for PBXProject "Spectrum Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81D4075E18E465E10039192A;
+			productRefGroup = 81D4076818E465E10039192A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81D4076618E465E10039192A /* Spectrum Timer */,
+				81D4079118E465E10039192A /* Spectrum TimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81D4076518E465E10039192A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D4078B18E465E10039192A /* Spaceship.png in Resources */,
+				81D4078D18E465E10039192A /* Images.xcassets in Resources */,
+				81D4078318E465E10039192A /* Main_iPad.storyboard in Resources */,
+				81D4078018E465E10039192A /* Main_iPhone.storyboard in Resources */,
+				81D4077718E465E10039192A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D4079018E465E10039192A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D4079E18E465E10039192A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81D4076318E465E10039192A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D4078918E465E10039192A /* MyScene.m in Sources */,
+				81D4078618E465E10039192A /* ViewController.m in Sources */,
+				81D4077D18E465E10039192A /* AppDelegate.m in Sources */,
+				81D4077918E465E10039192A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D4078E18E465E10039192A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D407A018E465E10039192A /* Spectrum_TimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81D4079818E465E10039192A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81D4076618E465E10039192A /* Spectrum Timer */;
+			targetProxy = 81D4079718E465E10039192A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81D4077518E465E10039192A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D4077618E465E10039192A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81D4077E18E465E10039192A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D4077F18E465E10039192A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		81D4078118E465E10039192A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D4078218E465E10039192A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		81D4079C18E465E10039192A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D4079D18E465E10039192A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81D407A118E465E10039192A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81D407A218E465E10039192A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81D407A418E465E10039192A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spectrum Timer/Spectrum Timer-Prefix.pch";
+				INFOPLIST_FILE = "Spectrum Timer/Spectrum Timer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81D407A518E465E10039192A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spectrum Timer/Spectrum Timer-Prefix.pch";
+				INFOPLIST_FILE = "Spectrum Timer/Spectrum Timer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		81D407A718E465E10039192A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spectrum Timer.app/Spectrum Timer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spectrum Timer/Spectrum Timer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Spectrum TimerTests/Spectrum TimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		81D407A818E465E10039192A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spectrum Timer.app/Spectrum Timer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spectrum Timer/Spectrum Timer-Prefix.pch";
+				INFOPLIST_FILE = "Spectrum TimerTests/Spectrum TimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81D4076218E465E10039192A /* Build configuration list for PBXProject "Spectrum Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D407A118E465E10039192A /* Debug */,
+				81D407A218E465E10039192A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D407A318E465E10039192A /* Build configuration list for PBXNativeTarget "Spectrum Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D407A418E465E10039192A /* Debug */,
+				81D407A518E465E10039192A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81D407A618E465E10039192A /* Build configuration list for PBXNativeTarget "Spectrum TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D407A718E465E10039192A /* Debug */,
+				81D407A818E465E10039192A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81D4075F18E465E10039192A /* Project object */;
+}
